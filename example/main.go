@@ -11,7 +11,7 @@ func main() {
 		//"https://www.iqiyi.com/",
 		//"https://v.qq.com/",
 		"https://www.jd.com/",
-		//"https://www.tmall.com/",
+		"https://www.tmall.com/",
 	}
 
 	resps, err := waitgroupexer.Crawl(sites)

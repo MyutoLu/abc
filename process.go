@@ -31,6 +31,6 @@ func Crawl(sites []string) ([]int, error) {
 		return resps, cerr
 	}
 
-	log.Printf("completed crawling in %s", time.Since(start))
+	log.Printf("completed crawling in %s.", time.Since(start))
 	return resps, nil
 }
